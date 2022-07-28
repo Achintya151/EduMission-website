@@ -47,7 +47,7 @@
         <!-- Top banner slider start -->
         <div>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
+                <div class="carousel-indicators d-none">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -106,9 +106,9 @@
                     looking at its layout.</p>
             </div>
             <!-- Courses start -->
-            <div class="row g-3">
-                <div class="col-lg-6 col-md-12 ">
-                    <div class="d-flex align-items-center border">
+            <div class="row g-3 d-flex">
+                <div class="col-lg-6 col-md-12">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-1.png" alt="">
                         </div>
@@ -124,7 +124,7 @@
 
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex align-items-center border">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-2.png" alt="">
                         </div>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex align-items-center border">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-3.png" alt="">
                         </div>
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex align-items-center border">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-4.png" alt="">
                         </div>
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex align-items-center border">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-5.png" alt="">
                         </div>
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex align-items-center border">
+                    <div class="d-flex flex-lg-row flex-column align-items-center border">
                         <div>
                             <img src="images/course/course-6.png" alt="">
                         </div>
@@ -206,18 +206,17 @@
         </section>
         <!-- Register now modal start -->
         <section
-            class="bg-info d-lg-flex justify-content-lg-between justify-content-md-center p-lg-5 text-lg-start text-md-center">
-            <div class="ps-5 ms-5 text-light text-wrap pt-lg-0 pt-md-5" style="width: 35rem;">
+            class="p-5 bg-info d-lg-flex col-md-12 col-12 justify-content-lg-between justify-content-md-center text-center p-lg-5 text-lg-start text-md-center">
+            <div class="ps-lg-5 ms-lg-5 text-light text-wrap pt-lg-0 pt-md-5">
                 <h1>Ready to join?</h1>
-                <P class="">It is a long established fact that a reader will be distracted by the readable
+                <P>It is a long established fact that a reader will be distracted by the readable
                     content of a
                     page when looking at its layout.</P>
             </div>
-            <div class="row align-items-center pe-5 me-5">
+            <div class="row align-items-center pe-lg-5 me-lg-5">
                 <!-- Button trigger modal -->
-                <div class="w-50-md ms-md-5">
-                    <button type="button"
-                        class="btn btn-light text-info fw-semibold mt-lg-5 text-md-center ms-md-4 mb-md-5"
+                <div class="w-50-md">
+                    <button type="button" class="btn btn-light text-info fw-semibold mt-lg-5 text-md-center mb-md-5"
                         data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Register Now
                     </button>
@@ -266,7 +265,7 @@
         <!-- Register now modal end -->
         <!-- Frequently asked question start -->
         <section class="d-flex justify-content-center flex-column px-lg-5 mx-lg-5 pb-5">
-            <div class="text-center p-5 m-5 mb-0">
+            <div class="text-center m-3 p-md-5 m-md-5 p-lg-5 m-lg-5 mb-0">
                 <h1>Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page
                     when
@@ -352,7 +351,7 @@
         </section>
         <!-- Frequently asked question end -->
         <!-- Trusted company -->
-        <section class="p-5 m-5 mx-0 d-lg-block d-md-none">
+        <section class="p-5 m-5 mx-0 d-lg-block d-md-none d-none">
             <div class="text-center p-3">
                 <h1>Trusted by over 800+ companies</h1>
             </div>
@@ -366,7 +365,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-dark text-light text-center p-5 ">
+    <footer class="bg-dark text-light text-center p-4">
         <section class="p-5">
             <div>
                 <h1>EduMission</h1>
